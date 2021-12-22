@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import { useSelector, useDispatch } from "react-redux";
 
 import { SignOut } from '../store/modules/auth/actions/authAction';
-import Default from '../Assets/default.png'
+import Default from '../assets/default.png'
 import './Navigation.css'
 
 import {
@@ -59,7 +59,6 @@ const Navigation = () => {
                   <DropdownMenu right>
                     <DropdownItem>
                       <NavItem>
-                          {console.log(userProfile)}
                         <NavLink to={userProfile}>Profile</NavLink>
                       </NavItem>
                     </DropdownItem>
@@ -88,7 +87,7 @@ const Navigation = () => {
   return (
     <div className="mb-3">
       <Navbar color="light" light expand="md">
-        <NavbarBrand className="mx-auto" href="/"><span style={{ fontWeight: "bold"}}>CaroDinaForum</span></NavbarBrand>
+        <NavbarBrand className="mx-auto" href="/"><span style={{ fontWeight: "bold"}}>GirlForum</span></NavbarBrand>
         
         <NavbarToggler onClick={() => setIsOpen(!isOpen) } /> 
         <Collapse isOpen={isOpen} navbar> 

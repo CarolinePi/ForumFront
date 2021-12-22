@@ -48,7 +48,7 @@ const Register = () => {
         </div>
         <div className="container Auth">
         <Card className="card-style">
-          <CardHeader>Welcome To CaroDinaForum</CardHeader>
+          <CardHeader>Welcome To GirlForum</CardHeader>
           <CardBody>
           <form onSubmit={submitUser}>
           <FormGroup>

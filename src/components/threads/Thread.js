@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 import { Card, CardText, CardBody, CardTitle } from 'reactstrap';
 
 import './Threads.css';
-import Default from '../../Assets/default.png'
+import Default from '../../assets/default.png'
 import Comments from '../comments/Comments'
 import EditThread from './EditThread';
 import DeleteThread from './DeleteThread'

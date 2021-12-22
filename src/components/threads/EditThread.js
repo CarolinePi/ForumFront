@@ -16,10 +16,6 @@ const EditThread = ({ thread, className }) => {
 
   const deactThread = id => dispatch(deactivateThread(id))
 
-  const updateSuccess = () => {
-    setModal(!modal);
-  }
-
   useEffect(() => {
     setThreadUpdate(thread)
   }, [thread]);

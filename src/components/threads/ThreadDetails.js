@@ -3,7 +3,7 @@ import Moment from 'react-moment';
 import { useSelector, useDispatch } from "react-redux";
 import { Card, CardText, CardBody, CardTitle } from 'reactstrap';
 
-import Default from '../../Assets/default.png'
+import Default from '../../assets/default.png'
 import { fetchThread } from '../../store/modules/threads/actions/threadsAction'
 import Navigation from '../Navigation'
 import Comments from '../comments/Comments'
